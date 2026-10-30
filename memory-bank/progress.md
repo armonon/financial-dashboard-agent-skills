@@ -4,6 +4,15 @@ Rolling record of substantive changes across sessions. Newest entry first.
 
 ---
 
+## 2026-10-30 — Internal skill location
+
+- Added `.skills/dashboard-metric-card/SKILL.md` (identical to the
+  `.agents/skills/` copy) because the assignment rubric evaluates the internal
+  skill under `.skills/`, while instructor feedback looked for it under
+  `.agents/skills/`. `.skills/README.md` documents both locations.
+- Re-verified: `npm run build` and `npm run lint` in `frontend/` pass;
+  `npm audit --omit=dev` reports 0 vulnerabilities.
+
 ## 2026-08-02 — Agent-skills session (`feature/agent-skills`)
 
 Goal: raise the bar on accessibility and deployment best practices
